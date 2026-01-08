@@ -1,0 +1,51 @@
+.container {
+  padding: 10px;
+  border: 1px solid;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.notes {
+  color: blue;
+  list-style: none;
+  padding: 0;
+}
+
+.notes li {
+  padding: 8px;
+  margin: 5px 0;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+form {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type="submit"]:hover {
+  background: #0056b3;
+}
